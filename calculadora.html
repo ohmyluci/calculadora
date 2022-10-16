@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Usando Arrays</title>
+<link rel="stylesheet" href="css/micss.css">
+</head>
+
+<body>
+
+<h1>Calculadora</h1>
+
+<script>
+	  var num1=prompt("Introduce el primer numero");
+    var num2=prompt("Introduce el segundo numero");
+    var operacion=prompt("Que operacion deseas realizar? Suma, Resta, Multiplicacion, Division").toLowerCase;
+
+    if (operacion=="suma"){
+      alert(parseInt(num1)+parseInt(num2));
+    }
+    else if (operacion=="resta"){
+      alert(parseInt(num1)-parseInt(num2));
+    }
+    else if (operacion=="multiplicacion"){
+      alert(parseInt(num1)*parseInt(num2));
+    }
+    else if (operacion=="division"){
+      alert(parseInt(num1)/parseInt(num2));
+    }
+    else {
+      alert("Operacion no contemplada");
+    }
+
+</script>
+
+</body>
+</html>
